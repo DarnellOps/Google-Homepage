@@ -11,8 +11,9 @@ body {
 }
 
 header {
-    padding: 6px;
-    margin: 10px;
+    padding: 10px;
+    margin: 6px 15px;
+
 }
 
  nav {
@@ -30,10 +31,26 @@ ul {
 
 a {
     text-decoration: none;
+    color: #202124;
 }
 
-.leftLink, .rightLink {
-    display: flex;
+a:hover {
+    text-decoration: underline;
 }
+
+.headerImg:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.headerButton {
+    background: rgb(30,144,255);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
 
 
