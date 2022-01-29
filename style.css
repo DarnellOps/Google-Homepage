@@ -30,6 +30,9 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+nav.mainNav a {
     color: #202124;
 }
 
@@ -46,7 +49,7 @@ a:hover {
 .headerButton {
     background: rgb(30,144,255);
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 5px;
     border: none;
 }
@@ -92,25 +95,45 @@ section {
 .buttonContainer > button {
     padding: 10px 15px;
     background: rgb(250, 248, 248);
-    border: 1px solid lightgray;
     border-radius: 5px;
+    outline: none;
+    border: none;
 }
 
 .searchButton:hover {
-    background-color: lightgray;
+    box-shadow: 1px 1px lightgray;
     cursor: pointer;
 }
 
 .leftFooter, .rightFooter {
+    display: flex;
+    gap: 30px;
     margin: 14px 20px;
 }
 
 footer {
-    background-color: rgb(236, 233, 233);
+    background-color: #f2f2f2;
     font-size: 16px;
-    color: #202124;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 302px;
+    font-size: 14px;
+    font-weight:100;
+}
+
+.bottomNav {
+    display: flex;
+    align-items: center;
+}
+
+.carbon {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-right: 100px;
+}
+
+nav.bottomNav a {
+    color: gray;
 }
 
 
