@@ -53,6 +53,7 @@ a:hover {
 }
 
 section {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,14 +62,39 @@ section {
 
 .inputContainer {
     display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
     align-items: center;
-    
-    
+    padding-left: 3px;
+    margin-bottom: 30px;
 }
 
-input {
+.inputContainer > input {
     display: flex;
-    flex-grow: 2;
+    flex-grow: 1;
+    border: none;
+    outline: none;
 }
 
+.buttonContainer {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
 
+button {
+    padding: 10px 15px;
+    background: rgb(250, 248, 248);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: ;
+    background: gainsboro;
+    font-size: 16px;
+    color: #202124;
+}
