@@ -101,11 +101,7 @@ section {
     cursor: pointer;
 }
 
-.leftFooter {
-    margin: 14px 20px;
-}
-
-.rightFooter {
+.leftFooter, .rightFooter {
     margin: 14px 20px;
 }
 
