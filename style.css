@@ -83,6 +83,11 @@ section {
     outline: none;
 }
 
+.micIcon:hover {
+    cursor: pointer;
+}
+
+
 .buttonContainer {
     margin: 0 auto;
     display: flex;
